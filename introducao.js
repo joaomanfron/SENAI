@@ -30,3 +30,10 @@ console.log("5 / 5 é igual a:", 5 / 5)
 console.log("5 % 2 é igual a:", 5 % 5)
 
 console.log(`o primeiro nome do lendário é ${primeiroNome}, e isso é tudo o que voce precisa saber`)
+
+
+let numeroMaximo = 4
+for(let contador = 1; contador < numeroMaximo; contador++) {
+    console.log(`Senha incorreta, essa foi sua ${contador} tentativa, se errar 3 vezes o cartao sera bloqueado`)
+}
+console.log("bloqueado")
